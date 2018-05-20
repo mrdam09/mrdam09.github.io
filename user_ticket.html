@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Home page      </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="images/favicon.png" rel="shortcut icon" type="image/png">
+    <link rel="stylesheet" href="base/css/bootstrap.min.css">
+    <link rel="stylesheet" href="base/css/animate.min.css">
+    <!-- banner_block-->
+    <link rel="stylesheet" href="base/css/owl.carousel.css">
+    <link rel="stylesheet" href="base/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="base/css/banner_block.css"><link rel="stylesheet" href="base/css/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="base/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="https://support.gamota.com/css/redactor.css?19292ad">
+    <link rel="stylesheet" href="https://support.gamota.com/css/filedrop.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries--><!--[if lt IE 9]>
+    <script src="base/js/html5shiv.min.js"></script>
+    <script src="base/js/respond.min.js"></script> 
+    <![endif]-->	         
+  </head>
+  <body class="user-ticket">
+    <div class="page">				   
+      <div id="header" class="header">
+        <div class="container">
+          <div class="row">
+            <div id="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+            <div class="pull-right dropdown"><a id="drop_user" data-toggle="dropdown" data-hover="dropdown" data-delay="1000" data-close-others="false" aria-expanded="false" role="button" class="user dropdown-toggle"><span><img src="images/tieungao_icon.png" class="user-avata"></span></a>
+              <ul aria-labelledby="drop_user" class="dropdown-menu">
+                <!-- menu_item-->
+                <li><a href="user_profile.html"> <span> Thông tin tài khoản  </span></a></li>
+                <li><a href="user_profile.html"> <span> Game đã chơi  </span><span class="badge">  4</span></a></li>
+                <li><a href="user_profile.html"> <span> Inbox  </span><span class="badge">  5</span></a></li>
+                <li><a href="user_profile.html"> <span> Nạp tiền ảo (GEM)  </span></a></li>
+                <li><a href="user_profile.html"> <span> Achivment  </span></a></li>
+                <li><a href="user_profile.html"> <span> Vinh danh BXH  </span></a></li>
+              </ul>
+            </div>
+            <div class="pull-right"> 
+              <div id="search-top">
+                <div class="search-box top-search">
+                  <form>
+                    <input type="search" placeholder="Tìm kiếm..."/>
+                    <button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div id="navigation">                      
+              <div class="navigation">
+                <ul>
+                  <li class="nav-home"><a href="index.html">Trang chủ</a>
+                  </li>
+                  <li><a href="list-game.html">Game</a>
+                    <ul>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-game.html">Tiếu ngạo giang hồ 3d</a>
+                      </li>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-game.html">Hiệp khách </a>
+                      </li>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-game.html">Đồ sát</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="list-minigame.html">MiniGame</a>
+                    <ul>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-minigame.html">Tiếu ngạo giang hồ 3d</a>
+                      </li>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-minigame.html">Hiệp khách </a>
+                      </li>
+                      <li><span class="avatar x-small"><img src="images/tieungao_icon.png" alt=""/></span><a style="padding-left:40px;" href="list-minigame.html">Đồ sát</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="giftcode.html">Giftcode</a>
+                  </li>
+                  <li class="has_live"><a href="video.html">Video</a>
+                  </li>
+                  <li><a href="cskh.html">CSKH</a>
+                  </li>
+                  <li><a href="contact.html">Liên hệ</a>
+                  </li>
+                  <li><a href="#">Nạp tiền</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="user_profile">
+          <div class="container">
+            <div class="top">			
+              <div class="userpro-menu border responsive">
+                <div class="userpro_menu_backdrop"></div>
+                <div class="userpro-menu-icon"><span> </span></div>
+                <ul>
+                  <li><a href="#mtk-1" aria-controls="mtk-1" role="tab" data-toggle="tab">Support center home</a><span class="iconlist"><i class="fa fa-angle-right"></i></span>
+                  </li>
+                  <li><a href="#mtk-2" aria-controls="mtk-2" role="tab" data-toggle="tab">Open a New Ticket</a><span class="iconlist"><i class="fa fa-angle-right"></i></span>
+                  </li>
+                  <li><a href="#mtk-3" aria-controls="mtk-3" role="tab" data-toggle="tab">Check Ticket Status</a><span class="iconlist"><i class="fa fa-angle-right"></i></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="content-main col-md-12 border">
+              <div class="user_profile_main"> 
+                <div role="tabpanel" id="mtk-1" class="tab-pane active">
+                  <div class="heading-box">
+                    <div class="title">Support center home </div>
+                  </div>
+                  <div class="box-content">                           
+                    <div class="col-md-12">
+                      <div id="content">
+                        <div id="landing_page">
+                          <h1>Welcome to the Support Center</h1>
+                          <p>In order to streamline support requests and better serve you, we utilize a support ticket system. Every support request is assigned a unique ticket number which you can use to track the progress and responses online. For your reference we provide complete archives and history of all your support requests. A valid email address is required to submit a ticket.</p>
+                          <div id="new_ticket" class="pull-left">
+                            <h3>Open a New Ticket</h3><br/>
+                            <div>Please provide as much detail as possible so we can best assist you. To update a previously submitted ticket, please login.</div>
+                            <div class="clearfix"></div>
+                            <div class="front-page-button pull-left">
+                              <p><a href="open.php" class="green button btn btn-green">Open a New Ticket</a></p>
+                            </div>
+                          </div>
+                          <div id="check_status" class="pull-left">
+                            <h3>Check Ticket Status</h3><br/>
+                            <div>We provide archives and history of all your current and past support requests complete with responses.        </div>
+                            <div class="front-page-button">
+                              <p><a href="view.php" class="blue button btn btn-primary">Check Ticket Status</a></p>
+                            </div>
+                            <div class="clearfix"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" id="mtk-2" class="tab-pane">
+                  <div class="heading-box">
+                    <div class="title">Open a New Ticket </div>
+                  </div>
+                  <div class="box-content">                           
+                    <div class="col-md-12">
+                      <div class="open-new-ticket-panel"> 
+                        <div width="100%" cellpadding="1" cellspacing="0" border="0">
+                          <div class="wrapper-content">
+                            <div class="row">
+                              <div class="col-md-4 required">Help Topic:</div>
+                              <div class="col-md-8">
+                                <select id="topicId" name="topicId" onchange="javascript:                var data = $(':input[name]', '#dynamic-form').serialize();                $.ajax(                'ajax.php/form/help-topic/' + this.value,                {                data: data,                dataType: 'json',                success: function(json) {                $('#dynamic-form').empty().append(json.html);                $(document.head).append(json.media);                }                });">
+                                  <option value="" selected="selected">— Select a Help Topic —</option>
+                                  <option value="14">Báo lỗi chung</option>
+                                  <option value="12">Báo lỗi nạp thẻ</option>
+                                  <option value="17">Báo lỗi thanh toán</option>
+                                  <option value="13">Báo lỗi đăng nhập</option>
+                                  <option value="16">Các vấn đề trong Game</option>
+                                  <option value="15">Phản hồi tới Gamota</option>
+                                </select><font class="error">* </font>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12">
+                                <hr/>
+                                <div style="margin-bottom:0.5em" class="form-header">
+                                  <h3>Contact Information</h3><em></em>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="a0ad24584efd44af" class="required">Email Address:</label>
+                              </div>
+                              <div class="col-md-8"><span style="display:inline-block">
+                                  <input id="_a0ad24584efd44af" type="text" placeholder="" name="a0ad24584efd44af" value=""/></span><font class="error">*</font></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="46aeaeb9c0e024ed" class="required">Full Name:</label>
+                              </div>
+                              <div class="col-md-8"><span style="display:inline-block">
+                                  <input id="_46aeaeb9c0e024ed" type="text" placeholder="" name="46aeaeb9c0e024ed" value=""/></span><font class="error">*</font></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="7fe806f830cff076">Phone Number:</label>
+                              </div>
+                              <div class="col-md-5">
+                                <input id="_7fe806f830cff076" type="text" name="7fe806f830cff076" value=""/>
+                              </div>
+                              <div class="col-md-1 col-xs-12 text-right label"> Ext:</div>
+                              <div class="col-md-2">
+                                <input type="text" name="7fe806f830cff076-ext" value="" size="5"/>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="dynamic-form" class="wrapper-content"></div>
+                          <div class="wrapper-content">
+                            <div class="row">
+                              <div class="col-md-12">
+                                <hr/>
+                                <div style="margin-bottom:0.5em" class="form-header">
+                                  <h3>Ticket Details</h3><em>Please Describe Your Issue</em>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="56295b12bba2c412" class="required">Issue Summary:</label>
+                              </div>
+                              <div class="col-md-8"><span style="display:inline-block">
+                                  <input id="_56295b12bba2c412" type="text" placeholder="" name="56295b12bba2c412" value=""/></span><font class="error">*</font></div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 redactor_box_wrapper">
+                                <div style="margin-bottom:0.5em;margin-top:0.5em"><strong>Issue Details</strong>:</div>
+                                <div class="redactor_box"> 
+                                  <textarea style="width: 100%; display: none;" name="message" placeholder="Details on the reason(s) for opening the ticket." data-draft-namespace="ticket.client" data-draft-object-id="nd3ct705ao94" cols="21" rows="8" dir="ltr" class="richtext draft draft-delete ifhtml"></textarea>
+                                </div>
+                                <div id="4a6e0808074f006d1541b6" class="filedrop">
+                                  <div class="files"></div>
+                                  <div class="dropzone"><i class="icon-upload"></i>            Drop files here or <a href="#" class="manual"> choose them </a>
+                                    <input id="file-4a6e0808074f006d1541b6" type="file" multiple="multiple" style="display: none; width: 0px; height: 0px;" accept=""/>
+                                  </div>
+                                </div>
+                                <script type="text/javascript">
+                                  $(function(){$('#4a6e0808074f006d1541b6 .dropzone').filedropbox({
+                                  url: 'ajax.php/form/upload/attach',
+                                  link: $('#4a6e0808074f006d1541b6').find('a.manual'),
+                                  paramname: 'upload[]',
+                                  fallback_id: 'file-4a6e0808074f006d1541b6',
+                                  allowedfileextensions: [],
+                                  allowedfiletypes: [],
+                                  maxfiles: 20,
+                                  maxfilesize: 1,
+                                  name: 'attach:21[]',
+                                  files: []        });});
+                                </script>
+                                <link rel="stylesheet" type="text/css" href="/css/filedrop.css"/><font class="error">*</font>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="02087ed2d59c3e7c" class="required">Tên game:</label>
+                              </div>
+                              <div class="col-md-4">
+                                <select id="_02087ed2d59c3e7c" name="02087ed2d59c3e7c[]" data-prompt="Select">
+                                  <option value="">— Select —</option>
+                                  <option value="8">Ải Mỹ Nhân</option>
+                                  <option value="7">Chiến Tiên </option>
+                                  <option value="1">Hiệp Khách</option>
+                                  <option value="4">Hotgirl Tam Quốc</option>
+                                  <option value="11">Ngự Long</option>
+                                  <option value="10">Nhẫn Giới</option>
+                                  <option value="5">Thế Giới Hoàn Mỹ</option>
+                                  <option value="2">Tiên kiếm kỳ duyên</option>
+                                  <option value="3">Tiếu Ngạo Giang Hồ</option>
+                                  <option value="6">Vua Bóng Đá</option>
+                                  <option value="9">Đồ Sát</option>
+                                </select><font class="error">*</font>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-md-4">
+                                <label for="e0ac08cacf1e7536">Tên nhân vật:</label>
+                              </div>
+                              <div class="col-md-8"><span style="display:inline-block">
+                                  <input id="_e0ac08cacf1e7536" type="text" size="16" placeholder="" name="e0ac08cacf1e7536" value=""/></span></div>
+                            </div>
+                          </div>
+                          <div class="wrapper-content">
+                            <div class="row">
+                              <div colspan="2" class="col-md-12"> </div>
+                            </div>
+                          </div>
+                          <div class="wrapper-content">
+                            <div class="row">
+                              <div style="text-align:center;" class="col-md-12">
+                                <input type="submit" value="Create Ticket" class="btn btn-primary"/>
+                                <input type="reset" name="reset" value="Reset" class="btn btn-primary"/>
+                                <input type="button" name="cancel" value="Cancel" onclick="javascript:                  $('.richtext').each(function() {                  var redactor = $(this).data('redactor');                  if (redactor &amp;&amp; redactor.opts.draftDelete)                  redactor.deleteDraft();                  });                  window.location.href='index.php';" class="btn btn-primary"/>
+                              </div>
+                            </div><br/>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" id="mtk-3" class="tab-pane">
+                  <div class="heading-box">
+                    <div class="title">Check Ticket Status </div>
+                  </div>
+                  <div class="box-content">                           
+                    <div class="col-md-12">
+                      <p>Chưa có nội dung</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="nav-footer">
+              <ul>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Game Hot</a></li>
+                <li><a href="#">Game Mới</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ul>
+            </div>
+            <div class="copyright text-center">Copyright 2015 by GAMOTA. Allright Reserved</div>
+          </div>
+          <div class="row social-link">
+            <div class="block-footer-logo"><a href="#"><img src="images/logo.png" alt=""></a></div>
+            <div class="block-hotline">
+              <div class="h-label">
+                <div class="text">Hotline</div>
+              </div>
+              <div class="phone-number">
+                <h3>1900 6855</h3>
+              </div>
+            </div>
+            <div class="block-social"><a href="#"> <i class="fa fa-facebook-official facebook-icon"></i></a><a href="#"><i class="fa fa-google-plus-square google-icon"></i></a><a href="#"><i class="fa fa-twitter-square twitter-icon"></i></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JavaScript -->
+    <script type="text/javascript" src="base/js/jquery.min.js"> </script>
+    <script type="text/javascript" src="base/js/bootstrap.min.js">     </script>
+    <script type="text/javascript" src="js/app.js">                         </script>
+    <script type="text/javascript" src="base/js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function(){ 
+      	
+      	// slide top mob
+      	var owl = $('#slider-top-mob');
+      	owl.owlCarousel({
+      		center : true,
+      		loop: true,
+      		items: 1 
+      	});
+      
+      	var $sync1 = $("#slider-top"),
+          	$sync2 = $("#slide-top-thumbs"),
+          	flag = false,
+      		duration = 300;
+      
+      		$sync1
+      			.owlCarousel({
+      				items: 1,
+      				margin: 0,
+      				nav: false,
+      				dots: true
+      			})
+      			.on('changed.owl.carousel', function (e) {
+      				if (!flag) {
+      					flag = true;
+      					$sync2.trigger('to.owl.carousel', [e.item.index, duration, true]);
+      					flag = false;
+      				}
+      			});
+      
+      		$sync2
+      			.owlCarousel({
+      				margin: 0,
+      				items: 6,
+      				nav: false,
+      				center: true,
+      				dots: true
+      			})
+      			.on('click', '.owl-item', function () {
+      				$sync1.trigger('to.owl.carousel', [$(this).index(), duration, true]);
+      
+      			})
+      			.on('changed.owl.carousel', function (e) {
+      				if (!flag) {
+      					flag = true;		
+      					$sync1.trigger('to.owl.carousel', [e.item.index, duration, true]);
+      					flag = false;
+      				}
+      			}); 
+      });
+    </script>
+    <script src="base/js/fancybox/jquery.fancybox.pack.js?v=2.1.5" type="text/javascript"></script>
+    <script>
+      $(document).ready(function() {
+      	$(".fancybox").fancybox();
+      });	
+    </script>
+    <script>
+      // search_top
+      $(function(){
+      	search_top('#search-top');
+      })
+      function search_top(search_top){
+      	
+      	// init
+      	var wrapper = $(search_top);
+      	//- console.log( wrapper);
+      	wrapper.prepend("<div class='search-backdrop' style='display:none;'></div>");
+      	var icon_class = 'search-icon';
+      	wrapper.append("<div class='"+icon_class+"'><i class='fa fa-search'> </i></div>");	
+      	var icon = $(search_top + ' .'+ icon_class);
+      	//- console.log( icon);
+      	var backdrop = $('.search-backdrop');
+      
+      	
+      	var search_box_class = 'search-box'; /* active panel */
+      	var search_box  = $('.'+search_box_class);
+      
+      	icon.click(function(){
+      		//- console.log('Search ok');
+      		if (!search_box.hasClass('active')) {
+      			open_s();
+      			}
+      		else if (search_box.hasClass('active')){
+      			close_s();
+      			}
+      	})
+      	backdrop.click(function(){
+      		//- console.log('backdrop click');
+      		//- console.log('Search ok');
+      		if (!search_box.hasClass('active')) {
+      			open_s();
+      			}
+      		else if (search_box.hasClass('active')){
+      			close_s();
+      			}
+      	})
+      
+      	function open_s(){
+      		//- console.log('Search opened');
+      		search_box.addClass('active');
+      		//- icon
+      		icon.addClass('active');
+      		icon.find('.fa').remove('.fa');
+      		icon.append("<i class='fa fa-close animated flipInY'></i>");
+      		//backdrop
+      		wrapper.find('.search-backdrop').show();	 
+      	}
+      	function close_s(){
+      		//- console.log('Search closed');
+      		search_box.removeClass('active');
+      		//- icon
+      		icon.removeClass('active');
+      		icon.find('.fa').remove('.fa');
+      		icon.append("<i class='fa fa-search animated flipInY'></i>");
+      		//backdrop
+      		wrapper.find('.search-backdrop').hide();
+      	}
+      
+      }
+    </script>
+    <script>
+      // shordes
+      var wrapper = '.game-des-mob';
+      var readmore_class = 'readmore-des';
+      var wrapper_readmore_class = wrapper + ' .'+readmore_class
+      var wrapper = $(wrapper);
+      var readmore = $(wrapper_readmore_class);
+      //- console.log(readmore);
+      readmore.click(function(){
+      	if (wrapper.hasClass('active')) {
+      		wrapper.removeClass('active');
+      		readmore.text('[Xem thêm]');
+      		}
+      	else {
+      		wrapper.addClass('active');
+      		readmore.text('[Thu gọn]');
+      		}
+      	});
+    </script>
+    <script>
+      // grid-category
+      $(window).load(function(){
+      	 var breakpoint = 990; //- 99
+      	if ($(window).width()< breakpoint){
+      		var owl_grid_cat = $('.grid-category-owl');
+      		owl_grid_cat.owlCarousel({
+      			margin: 10, 
+      			items: 3,
+      			nav:false 
+      		});
+      		}
+      	});
+    </script>
+    <script src="base/js/jquery.ddslick.js"></script>
+    <script>
+      //dropdown ddslidk
+      $('#demo-htmlselect').ddslick();
+    </script>
+    <script src="https://support.gamota.com/js/redactor.min.js?19292ad"></script>
+    <script>
+      $(function()
+      	{
+      	    $('.richtext').redactor();
+      	});
+    </script>
+  </body>
+</html>
